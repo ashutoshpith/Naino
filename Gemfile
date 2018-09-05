@@ -62,3 +62,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails-assets-bulma', source: 'https://rails-assets.org'
+gem 'bulma-extensions-rails'
+gem 'rails-assets-Wikiki--bulma-accordion', source: 'https://rails-assets.org'
