@@ -53,6 +53,8 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     bulma-extensions-rails (1.0.30)
+    bulma-rails (0.7.1)
+      sass (~> 3.2)
     byebug (10.0.2)
     capybara (3.6.0)
       addressable
@@ -127,7 +129,6 @@ GEM
       railties (= 5.2.1)
       sprockets-rails (>= 2.0.0)
     rails-assets-Wikiki--bulma-accordion (1.0.1)
-    rails-assets-bulma (0.7.1)
     rails-assets-jquery (3.3.1)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
@@ -199,6 +200,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   bulma-extensions-rails
+  bulma-rails (~> 0.7.1)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
@@ -209,7 +211,6 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.1)
   rails-assets-Wikiki--bulma-accordion!
-  rails-assets-bulma!
   rails-assets-jquery!
   sass-rails (~> 5.0)
   selenium-webdriver

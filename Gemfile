@@ -61,11 +61,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
+gem "bulma-rails", "~> 0.7.1"
 gem 'bulma-extensions-rails'
 
 source "https://rails-assets.org" do
-gem 'rails-assets-bulma'
 gem 'rails-assets-Wikiki--bulma-accordion'
 gem 'rails-assets-jquery'
 end
