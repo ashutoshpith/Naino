@@ -128,6 +128,7 @@ GEM
       sprockets-rails (>= 2.0.0)
     rails-assets-Wikiki--bulma-accordion (1.0.1)
     rails-assets-bulma (0.7.1)
+    rails-assets-jquery (3.3.1)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -209,6 +210,7 @@ DEPENDENCIES
   rails (~> 5.2.1)
   rails-assets-Wikiki--bulma-accordion!
   rails-assets-bulma!
+  rails-assets-jquery!
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
