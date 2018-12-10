@@ -9,7 +9,7 @@ before_action :find_commentable
       @comment = @commentable.comments.new comment_params
 
       if @comment.save
-        redirect_to root_path, notice: 'Your comment was successfully posted!'
+        redirect_to stories_path, notice: 'Your comment was successfully posted!'
       else
         redirect_to root_path, notice: "Your comment wasn't posted!"
       end
